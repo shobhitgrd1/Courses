@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Web site created using create-react-app" />
+    <title>Test</title>
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background: radial-gradient(50% 50% at 50% 50%, rgba(0, 55, 255, 0) 0%, #0084FF 100%);
+        }
+
+        .card-wrapper {
+            display: flex;
+            gap: 30px;
+            width: 100%;
+            overflow-x: auto;
+            padding-bottom: 10px;
+        }
+
+        .card {
+            width: 240px;
+            background: #fff;
+            border-radius: 15px 15px 0px 0px;
+            position: relative;
+        }
+
+        .main-wrapper {
+            padding: 35px;
+        }
+
+        .header-wrapper {
+            margin-bottom: 60px;
+        }
+
+        .header-wrapper .t1 {
+            font-size: 14px;
+            font-weight: 700;
+            color: #96BB7C;
+        }
+
+        .header-wrapper h2 {
+            font-size: 40px;
+            font-weight: 700;
+            color: #fff;
+            line-height: 50px;
+            padding: 10px 0px;
+            margin: 0px !important;
+        }
+
+        .header-wrapper p {
+            font-size: 14px;
+            font-weight: 400;
+            color: #F6F6F6;
+            line-height: 20px;
+        }
+
+        .sale-tag {
+            background-color: #E74040;
+            border-radius: 3px;
+            padding: 5px 10px;
+            color: #fff;
+            font-size: 14px;
+            font-weight: 700;
+            position: absolute;
+            top: -10px;
+            left: 20px;
+        }
+
+        .main-img {
+            border-radius: 15px 15px 0px 0px;
+        }
+
+        .icongroup {
+            position: absolute;
+            top: 240px;
+            left: 45px;
+            display: flex;
+            gap: 10px;
+        }
+
+        .small-para {
+            font-size: 14px;
+            font-weight: 700;
+            color: #96BB7C;
+
+        }
+
+        .content-wrapper {
+            padding: 10px 25px 35px;
+        }
+
+        .content-wrapper h3 {
+            font-size: 16px;
+            font-weight: 700;
+            color: #252B42;
+        }
+
+        .content-wrapper .disc {
+            color: #737373;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 20px;
+        }
+
+        .sales {
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 24px;
+            color: #737373;
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+
+        .price {
+            font-size: 16px;
+            font-weight: 700;
+            color: #BDBDBD;
+        }
+
+        .price span {
+            color: #FFAB71;
+            padding-left: 5px;
+        }
+
+        .content-wrapper a {
+            padding: 10px 20px 10px 20px;
+            border-radius: 37px;
+            border: 1px solid #96BB7C;
+            color: #96BB7C;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 700;
+            margin-top: 10px;
+            display: flex;
+            width: fit-content;
+        }
+
+        ::-webkit-scrollbar {
+            height: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            box-shadow: inset 0 0 5px grey;
+            border-radius: 10px;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #e7e7e7;
+            border-radius: 10px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #abc5dc;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main-wrapper">
+        <div class="header-wrapper">
+            <p class="t1">Courses</p>
+            <h2>Most Popular Courses</h2>
+            <p>Problems trying to resolve the conflict between <br>the two major realms of Classical physics: Newtonian
+                mechanics </p>
+        </div>
+        <div class="card-wrapper">
+            <div class="card">
+                <h6 class="sale-tag">Sale</h6>
+                <img src="image/img/product-cover-133 sec-.png" alt="card-img" class="main-img" />
+                <div class="icongroup">
+                    <img src="image/icon/basket.png" alt="card-img" />
+                    <img src="image/icon/like (1).png" alt="card-img" />
+                    <img src="image/icon/like.png" alt="card-img" />
+                </div>
+                <div class="content-wrapper">
+                    <p class="small-para">training Courses</p>
+                    <h3>Video in Live Action</h3>
+                    <p class="disc">We focus on ergonomics and meeting you....</p>
+                    <p class="sales"><img src="image/icon/Frame sec-.png" alt="card-img" />15 Sales</p>
+                    <p class="price">$16.48</span><span>$6.48</p>
+                    <a href="">
+                        Learn More
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-chevron-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="card">
+                <h6 class="sale-tag">Sale</h6>
+                <img src="image/img/product-cover-131.png" alt="card-img" class="main-img" />
+                <div class="icongroup">
+                    <img src="image/icon/basket.png" alt="card-img" />
+                    <img src="image/icon/like (1).png" alt="card-img" />
+                    <img src="image/icon/like.png" alt="card-img" />
+                </div>
+                <div class="content-wrapper">
+                    <p class="small-para">training Courses</p>
+                    <h3>Most Popular Courses</h3>
+                    <p class="disc">We focus on ergonomics and meeting you....</p>
+                    <p class="sales"><img src="image/icon/Frame sec-.png" alt="card-img" />15 Sales</p>
+                    <p class="price">$16.48</span><span>$6.48</p>
+                    <a href="">
+                        Learn More
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-chevron-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="card">
+                <h6 class="sale-tag">Sale</h6>
+                <img src="image/img/product-cover-132 sec-.png" alt="card-img" class="main-img" />
+                <div class="icongroup">
+                    <img src="image/icon/basket.png" alt="card-img" />
+                    <img src="image/icon/like (1).png" alt="card-img" />
+                    <img src="image/icon/like.png" alt="card-img" />
+                </div>
+                <div class="content-wrapper">
+                    <p class="small-para">training Courses</p>
+                    <h3>Video in Live Action</h3>
+                    <p class="disc">We focus on ergonomics and meeting you....</p>
+                    <p class="sales"><img src="image/icon/Frame sec-.png" alt="card-img" />15 Sales</p>
+                    <p class="price">$16.48</span><span>$6.48</p>
+                    <a href="">
+                        Learn More
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-chevron-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="card">
+                <h6 class="sale-tag">Sale</h6>
+                <img src="image/img/product-cover-130 sec-.png" alt="card-img" class="main-img" />
+                <div class="icongroup">
+                    <img src="image/icon/basket.png" alt="card-img" />
+                    <img src="image/icon/like (1).png" alt="card-img" />
+                    <img src="image/icon/like.png" alt="card-img" />
+                </div>
+                <div class="content-wrapper">
+                    <p class="small-para">training Courses</p>
+                    <h3>Video in Live Action</h3>
+                    <p class="disc">We focus on ergonomics and meeting you....</p>
+                    <p class="sales"><img src="image/icon/Frame sec-.png" alt="card-img" />15 Sales</p>
+                    <p class="price">$16.48</span><span>$6.48</p>
+                    <a href="">
+                        Learn More
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-chevron-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="card">
+                <h6 class="sale-tag">Sale</h6>
+                <img src="image/img/product-cover-133 sec-.png" alt="card-img" class="main-img" />
+                <div class="icongroup">
+                    <img src="image/icon/basket.png" alt="card-img" />
+                    <img src="image/icon/like (1).png" alt="card-img" />
+                    <img src="image/icon/like.png" alt="card-img" />
+                </div>
+                <div class="content-wrapper">
+                    <p class="small-para">training Courses</p>
+                    <h3>Video in Live Action</h3>
+                    <p class="disc">We focus on ergonomics and meeting you....</p>
+                    <p class="sales"><img src="image/icon/Frame sec-.png" alt="card-img" />15 Sales</p>
+                    <p class="price">$16.48</span><span>$6.48</p>
+                    <a href="">
+                        Learn More
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-chevron-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="card">
+                <h6 class="sale-tag">Sale</h6>
+                <img src="image/img/product-cover-131.png" alt="card-img" class="main-img" />
+                <div class="icongroup">
+                    <img src="image/icon/basket.png" alt="card-img" />
+                    <img src="image/icon/like (1).png" alt="card-img" />
+                    <img src="image/icon/like.png" alt="card-img" />
+                </div>
+                <div class="content-wrapper">
+                    <p class="small-para">training Courses</p>
+                    <h3>Most Popular Courses</h3>
+                    <p class="disc">We focus on ergonomics and meeting you....</p>
+                    <p class="sales"><img src="image/icon/Frame sec-.png" alt="card-img" />15 Sales</p>
+                    <p class="price">$16.48</span><span>$6.48</p>
+                    <a href="">
+                        Learn More
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-chevron-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="card">
+                <h6 class="sale-tag">Sale</h6>
+                <img src="image/img/product-cover-132 sec-.png" alt="card-img" class="main-img" />
+                <div class="icongroup">
+                    <img src="image/icon/basket.png" alt="card-img" />
+                    <img src="image/icon/like (1).png" alt="card-img" />
+                    <img src="image/icon/like.png" alt="card-img" />
+                </div>
+                <div class="content-wrapper">
+                    <p class="small-para">training Courses</p>
+                    <h3>Video in Live Action</h3>
+                    <p class="disc">We focus on ergonomics and meeting you....</p>
+                    <p class="sales"><img src="image/icon/Frame sec-.png" alt="card-img" />15 Sales</p>
+                    <p class="price">$16.48</span><span>$6.48</p>
+                    <a href="">
+                        Learn More
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-chevron-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="card">
+                <h6 class="sale-tag">Sale</h6>
+                <img src="image/img/product-cover-130 sec-.png" alt="card-img" class="main-img" />
+                <div class="icongroup">
+                    <img src="image/icon/basket.png" alt="card-img" />
+                    <img src="image/icon/like (1).png" alt="card-img" />
+                    <img src="image/icon/like.png" alt="card-img" />
+                </div>
+                <div class="content-wrapper">
+                    <p class="small-para">training Courses</p>
+                    <h3>Video in Live Action</h3>
+                    <p class="disc">We focus on ergonomics and meeting you....</p>
+                    <p class="sales"><img src="image/icon/Frame sec-.png" alt="card-img" />15 Sales</p>
+                    <p class="price">$16.48</span><span>$6.48</p>
+                    <a href="">
+                        Learn More
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-chevron-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+<!-- https://www.figma.com/design/TLE4eX5fx3Foz0Gvbsrjpi/Untitled?node-id=1-19&node-type=frame&t=JO2Ezz1soEzi2J35-0 -->
